@@ -11,6 +11,7 @@ class Bicicleta(Vehiculo):
         self._ubicacion["x"] += dx
         self._ubicacion["y"] += dy
         return self._ubicacion
+    
     # Accesores o getters
     @property
     def precio(self) -> float:
@@ -18,6 +19,7 @@ class Bicicleta(Vehiculo):
     @property
     def ubicacion(self) -> dict[str, int]:
         return self._ubicacion
+    
     # Mutador o setter
     @precio.setter
     def precio(self, precio: float) -> None:
