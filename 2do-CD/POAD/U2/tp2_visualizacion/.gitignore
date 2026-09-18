@@ -22,3 +22,8 @@ Thumbs.db
 
 # .mds, archivos de lectura
 *.docx
+
+# Datasets requeridos para la ejecución y reproducibilidad del TP
+!life-expectancy.csv
+!pobreza.csv
+
