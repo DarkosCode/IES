@@ -1,10 +1,4 @@
 """
-MÓDULO 1: PROCESAMIENTO Y LIMPIEZA DE DATOS (PANDAS)
-===================================================
-Trabajo Práctico N° 2 - Programación Orientada al Análisis de Datos (POAD)
-Cátedra: Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial
-
-Este módulo cumple con la primera consigna:
 - Carga de 2 fuentes de datos CSV independientes.
 - Limpieza y descarte de registros no válidos (agrupaciones regionales sin código ISO).
 - Normalización de nombres de columnas a formato uniforme.
@@ -14,7 +8,6 @@ Este módulo cumple con la primera consigna:
 """
 
 import pandas as pd
-
 
 def cargar_esperanza_vida(ruta_archivo: str = "life-expectancy.csv") -> pd.DataFrame:
     """
@@ -117,7 +110,7 @@ def preparar_datos() -> pd.DataFrame:
 if __name__ == "__main__":
     # Prueba rápida unitaria del módulo
     datos = preparar_datos()
-    print("--- VISTA PREVIA DEL DATAFRAME PROCESADO ---")
+    #VISTA PREVIA DEL DATAFRAME PROCESADO
     print(f"Registros totales unidos: {len(datos)}")
     print(f"Columnas resultantes: {datos.columns.tolist()}")
     print("\nPrimeras 5 filas:")

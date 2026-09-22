@@ -95,6 +95,7 @@ Las dependencias requeridas:
 - `matplotlib >= 3.7.0`
 - `seaborn >= 0.12.0`
 - `plotly >= 5.15.0`
+- `scipy >= 1.10.0`
 
 Para instalarlas en un entorno nuevo:
 
