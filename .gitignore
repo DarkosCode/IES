@@ -11,3 +11,8 @@ venv/
 
 # datasets pesados, no se suben al repo
 *.csv
+# Excepciones para datasets livianos de TPs específicos:
+# 2do-CD/POAD/U2/tp2_visualizacion (POAD - Unidad 2 - TP2: Visualización de Datos)
+!2do-CD/POAD/U2/tp2_visualizacion/life-expectancy.csv
+!2do-CD/POAD/U2/tp2_visualizacion/pobreza.csv
+
